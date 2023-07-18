@@ -290,3 +290,37 @@ Feature Section
 .feature-content .primary-btn.btn::after {
     left: 107px;
 }
+
+/* =============
+Footer Section
+================ */
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+
+footer h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+    line-height: 2rem;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-family: var(--ff-manrope);
+    font-size: 14px;
+    font-weight: var(--fw-bold);
+    line-height: 1.5rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
