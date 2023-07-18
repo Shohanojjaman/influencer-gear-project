@@ -1,0 +1,5 @@
+/* Medium Device */
+@media screen and (min-width:577px) and (max-width:1440px) {}
+
+/* Mobile Device */
+@media screen and (max-width:576px) {}
