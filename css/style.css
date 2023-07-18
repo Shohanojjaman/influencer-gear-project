@@ -27,6 +27,7 @@
 body {
     font-family: var(--ff-poppins);
     font-size: 1rem;
+    color: var(--primary-text-color);
 }
 
 img,
@@ -40,7 +41,44 @@ a {
     color: inherit;
 }
 
+li {
+    list-style: none;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+/* ================
+Header Section
+=================== */
+header {
+    padding-top: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .logo h1 {
+    color: var(--primary-text-color);
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: var(--fw-bold);
+    text-transform: capitalize;
+}
+
+.main-menu nav ul {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.main-menu nav ul li a {
+    color: var(--primary-text-color);
+    font-weight: var(--fw-semibold);
+    line-height: 1.5em;
 }
