@@ -9,7 +9,6 @@
     /* Colors */
     --primary-color: #E02C6D;
     --primary-text-color: #3A3A3A;
-    --secondary-text-color: #6C6C6C;
 
     /* Fonts */
     --ff-poppins: 'Poppins', sans-serif;
@@ -57,6 +56,7 @@ li {
     line-height: 1.5rem;
     font-weight: var(--fw-bold);
     position: relative;
+    display: inline-block;
     padding: 10px 24px;
 }
 
@@ -248,4 +248,45 @@ Collection Section
 #collection a {
     text-align: right;
     display: block;
+}
+
+/* ===============
+Feature Section
+================== */
+#feature {
+    padding: 100px 0;
+}
+
+#feature .container {
+    display: flex;
+}
+
+.feature-img {
+    flex-basis: 35%;
+}
+
+.feature-content {
+    flex-basis: 65%;
+    margin-left: 100px;
+}
+
+.feature-content h2 {
+    font-size: 35px;
+    color: #0A0826;
+}
+
+.feature-content p {
+    color: #6C6C6C;
+    font-weight: var(--fw-bold);
+    list-style: 1.75;
+    margin: 16px 0;
+}
+
+.feature-content a.btn {
+    border-radius: 0;
+    width: 155px;
+}
+
+.feature-content .primary-btn.btn::after {
+    left: 107px;
 }
