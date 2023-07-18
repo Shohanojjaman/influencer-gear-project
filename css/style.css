@@ -72,7 +72,7 @@ li {
 Header Section
 =================== */
 header {
-    padding-top: 50px;
+    padding: 50px 0 70px;
     height: min(100vh, 650px);
 }
 
@@ -146,4 +146,18 @@ header {
     position: relative;
     top: 60px;
     right: -110px;
+}
+
+/* ============
+Brand Section
+=============== */
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+#brand svg {
+    fill: linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
 }
