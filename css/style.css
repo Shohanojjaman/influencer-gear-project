@@ -1,0 +1,41 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --primary-color: #E02C6D;
+    --primary-text-color: #3A3A3A;
+    --secondary-text-color: #6C6C6C;
+
+    /* Fonts */
+    --ff-poppins: 'Poppins', sans-serif;
+    --ff-inter: 'Inter', sans-serif;
+    --ff-roboto: 'Roboto', sans-serif;
+    --ff-manrope: 'Manrope', sans-serif;
+
+    /* Font Weight */
+    --fw-normal: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+}
+
+body {
+    font-family: var(--ff-poppins);
+    font-size: 1rem;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
